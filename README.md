@@ -5,9 +5,7 @@ The Job Portal project is a full-stack web application that allows users to brow
 
 # Features:-
 
-User Authentication: Users can sign up and log in to access the full functionality of the application.
-
-Admin Panel: Administrators can manage user informations(i.e Add,upload and edit the user data).
+Admin Panel: Administrators can log in and can manage user informations(i.e Add , upload , edit and delete edit the user data).
 
 
 

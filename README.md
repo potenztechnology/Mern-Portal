@@ -5,9 +5,33 @@ The Job Portal project is a full-stack web application that allows users to brow
 
 # Features:-
 
-Admin Panel: Administrators can log in and can manage user informations(i.e Add , upload , edit and delete edit the user data).
+User Authentication:
 
+Provides secure login functionality with password hashing and JWT (JSON Web Tokens) for authentication.
 
+Distinguishes between regular users and administrators during the authentication process.
+
+Administrators have special privileges and can perform administrative tasks upon login.
+
+User authentication is implemented securely with role-based access control.
+
+Regular users have limited access compared to administrators.
+
+Admin Panel:
+
+Administrators have access to a dedicated admin panel.
+
+Admins can manage user accounts, including adding,updating and deleting user's accounts.
+
+Password Recovery:
+
+Allows admin to reset their password or user's password in case they forget it.
+
+User :
+
+User can log in and have access to Data.
+
+User can manage data including the adding the data manually or by uploading a .csv or .xlsv file,editing the data and deleting the data.
 
 # Technologies Used
 

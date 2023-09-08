@@ -17,17 +17,17 @@ User authentication is implemented securely with role-based access control.
 
 Regular users have limited access compared to administrators.
 
-Admin Panel:
+## Admin Panel:
 
 Administrators have access to a dedicated admin panel.
 
 Admins can manage user accounts, including adding,updating and deleting user's accounts.
 
-Password Recovery:
+## Password Recovery:
 
 Allows admin to reset their password or user's password in case they forget it.
 
-User :
+## User :
 
 User can log in and have access to Data.
 

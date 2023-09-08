@@ -1,7 +1,6 @@
 # Introduction
 
-The Job Portal project is a full-stack web application that allows users to browse and search for job listings. It provides a platform for employers to post job openings and for job seekers to find relevant job opportunities. This project is built using React for the frontend, Node.js and Express for the backend, and MongoDB for the database.
-
+The Job Portal project is a full-stack web application that allows users to browse and search for job listings. It provides a seamless platform where users can browse and filter job listings based on their desired job positions or roles.Easily find job listings by searching for specific job positions or roles. Our search functionality is designed to help you discover the perfect job that matches your skills and aspirations. With a user-friendly interface and powerful search capabilities, our Job Portal aims to connect talented professionals with exciting career opportunities. This project is built using React for the frontend, Node.js and Express for the backend, and MongoDB for the database.
 
 # Features:-
 

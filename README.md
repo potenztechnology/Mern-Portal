@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Job Portal project is a full-stack web application that allows users to browse and search for job listings. It provides a platform for employers to post job openings and for job seekers to find relevant job opportunities. This project is built using React for the frontend, Node.js and Express for the backend, and MongoDB for the database.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Features:-
 
-### `npm start`
+## User Authentication:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Provides secure login functionality with password hashing and JWT (JSON Web Tokens) for authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Distinguishes between regular users and administrators during the authentication process.
 
-### `npm test`
+Administrators have special privileges and can perform administrative tasks upon login.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User authentication is implemented securely with role-based access control.
 
-### `npm run build`
+Regular users have limited access compared to administrators.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Admin Panel:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Administrators have access to a dedicated admin panel.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Admins can manage user accounts, including adding,updating and deleting user's accounts.
 
-### `npm run eject`
+## Password Recovery:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Allows admin to reset their password or user's password in case they forget it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## User :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+User can log in and have access to Data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User can manage data including the adding the data manually or by uploading a .csv or .xlsv file,editing the data and deleting the data.
 
-## Learn More
+# Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Frontend:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React
 
-### Code Splitting
+Axios (for making API requests)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React Router (for navigation)
 
-### Analyzing the Bundle Size
+Bootstrap 5 (for UI components)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Backend:
 
-### Making a Progressive Web App
+Node.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Express.js (for building APIs)
 
-### Advanced Configuration
+JWT (for authentication)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Database:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MongoDB (using Mongoose)

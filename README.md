@@ -5,7 +5,7 @@ The Job Portal project is a full-stack web application that allows users to brow
 
 # Features:-
 
-User Authentication:
+## User Authentication:
 
 Provides secure login functionality with password hashing and JWT (JSON Web Tokens) for authentication.
 

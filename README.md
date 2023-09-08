@@ -14,13 +14,23 @@ Admin Panel: Administrators can manage user informations(i.e Add,upload and edit
 # Technologies Used
 
 # Frontend:
+
 React
+
 Axios (for making API requests)
+
 React Router (for navigation)
+
 Bootstrap 5 (for UI components)
+
 # Backend:
+
 Node.js
+
 Express.js (for building APIs)
+
 JWT (for authentication)
+
 # Database:
+
 MongoDB (using Mongoose)
